@@ -1,0 +1,9 @@
+[package]
+name = "MoonCoin"
+version = "0.0.0"
+
+[addresses]
+MoonCoin = "0xEDBCB58661E7C338F2954CB1013040C6792FD59274C23F0BE52EA8704948C19E"
+
+[dependencies]
+AptosFramework = { local = "C:/work/Move/aptos/tutorial/aptos-core/aptos-move/framework/aptos-framework" }

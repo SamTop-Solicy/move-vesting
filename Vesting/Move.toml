@@ -1,0 +1,14 @@
+[package]
+name = "Vesting"
+version = "0.0.0"
+
+[addresses]
+Vesting = "_"
+BURN_ADDRESS = "0xdead"
+MoonCoin = "0xEDBCB58661E7C338F2954CB1013040C6792FD59274C23F0BE52EA8704948C19E"
+FeeCollector1 = "_"
+FeeCollector2 = "_"
+
+[dependencies]
+AptosFramework = { local = "C:/work/Move/aptos/tutorial/aptos-core/aptos-move/framework/aptos-framework" }
+MoonCoin = { local= "../MoonCoin" }
